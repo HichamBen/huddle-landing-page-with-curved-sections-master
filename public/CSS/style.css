@@ -49,17 +49,17 @@ nav>a:hover {
 
 /* header */
 
-header {
+.header {
     padding: 0 10% 100px;
     text-align: center;
     color: hsl(192, 100%, 9%);
 }
 
-header>p {
+.header>p {
     margin: 0 30% 3.125%;
 }
 
-header>a, .bottom>a {
+.header>a, .bottom>a {
     padding: 15px 50px;
     text-decoration: none;
     color: white;
@@ -68,12 +68,12 @@ header>a, .bottom>a {
     box-shadow: 4px 5px 8px hsl(320, 9%, 79%);
 }
 
-header>a:hover, .bottom>a:hover {
+.header>a:hover, .bottom>a:hover {
     background-color: hsl(321, 100%, 78%);
 }
 
 /* main div */
-main>img {
+.main>img {
     display: block;
     margin: auto;
     padding-bottom: 100px;
@@ -242,17 +242,17 @@ p>svg {
         font-size: 0.75rem;
     }
 
-    header>p {
+    .header>p {
         margin: 0 4% 50px;
         font-size: 0.85rem;
     }
 
-    header>a, .bottom>a {
+    .header>a, .bottom>a {
         font-size: 0.75rem;
         padding: 10px 30px;
     }
 
-    main>img {
+    .main>img {
         width: 80%
     }
 

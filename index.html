@@ -23,21 +23,23 @@
 
 <body>
 
-  <section class="top">
+  <!-- <section class="top"> -->
+    <header>
     <nav>
       <img src="./public/images/logo.svg" alt="">
       <a href="#">Try it free</a>
     </nav>
 
-    <header>
+    <div class="header">
       <h1>Build The Community Your Fans Will Love</h1>
       <p>Huddle re-imagines the way we build communities. You have a voice, but so does
         your audience. Create connections with your users as you engage in genuine discussion.
       </p>
       <a href="#">Get Started For Free</a>
+    </div>
     </header>
 
-    <main>
+    <div class="main">
       <img src="./public/images/screen-mockups.svg" alt="">
     
       <div class="statics">
@@ -53,13 +55,13 @@
           <span>Messages Sent</span>
         </div>
       </div>
-    </main>
-  </section>
+    </div>
+  <!-- </section> -->
 
   <div class="between"></div>
 
-  <section class="middle1">
-    <div class="info">
+  <section class="middle1" aria-labelledby="features">
+    <div id="features" class="info">
       <h2>Grow Together</h2>
       <p>Generate meaningful discussions with your audience and build a strong, loyal community.
         Think of the insightful conversations you miss out on with a feedback form.</p>
@@ -72,8 +74,8 @@
 
   <div class="between1"></div>
 
-  <section class="middle2" style="background-color: white;">
-    <div class="img-desc">
+  <section aria-labelledby="features" class="middle2" style="background-color: white;">
+    <div id="features" class="img-desc">
       <img src="./public/images/illustration-flowing-conversation.svg" alt="">
     </div>
 
@@ -88,8 +90,8 @@
 
   <div class="between2"></div>
 
-  <section class="middle3">
-    <div class="info">
+  <section aria-labelledby="features" class="middle3">
+    <div id="features" class="info">
       <h2>Your Users</h2>
       <p>
         It takes no time at all to integrate Huddle with your app's authentication solution. This means,
@@ -104,8 +106,8 @@
 
   <div class="between3"></div>
 
-  <section class="bottom">
-    <h2 style="margin-bottom:50px;">Ready To Build Your Community?</h2>
+  <section aria-labelledby="Ready" class="bottom">
+    <h2 id="Ready" style="margin-bottom:50px;">Ready To Build Your Community?</h2>
     <a href="#">Get Started For Free</a>
   </section>
 
@@ -149,7 +151,7 @@
         send you spam or pass on your email address</p>
 
       <form action="/">
-        <input type="email" name="email" placeholder="" autocomplete="off">
+        <input type="email" name="email" aria-label="Adress" autocomplete="off">
         <input type="submit" value="Subscribe">
       </form>
     </div>
